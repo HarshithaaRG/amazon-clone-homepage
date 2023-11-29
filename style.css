@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.firstnav{
+    height:60px;
+    background-color: #0F1111;
+    display:flex;
+    column-gap: 3px;     
+    min-width:100%;
+    
+}
+.amlogo{    
+    height:50px;
+    padding:4px 8px 0px 6px;
+    
+    margin-top:6px;
+    margin-left:5px;
+}
+
+.amlogo:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+.address{
+    display:flex;
+    flex-direction: column;
+    margin:5px 2px 5px 0px;
+    padding:8px 9px;
+    height:50px;
+    
+}
+.locupdate{
+    display:flex;
+    color:white;
+    margin-top:2px;
+    
+}
+.address:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+.searchamazon{
+    display: flex;
+    padding:10px 4px 10px 5px;   
+    width:515px;
+    margin-right:3px;   
+    
+}
+.all{
+    margin:0;
+    background-color:rgb(230, 228, 228);
+    height:40px;
+    border:1px solid black;
+    border-right:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width:53px;  
+    padding-top:10px;  
+    padding-left:8px;
+}
+
+select{
+    background-color:rgb(230, 228, 228);
+    border:none;
+    color:rgb(67, 66, 66);
+    font-size: 12px;
+}
+
+.magnify{
+    margin:0;
+    background-color:rgb(250, 188, 74);
+    width:53px;
+    height:40px;
+    border:1px solid black;
+    border-left:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    padding-top:10px;
+}
+.searchbar{
+    width:100%;
+}
+
+.searchbar input{
+    width:100%;
+    height:40px;    
+    border:none;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    font-size:1rem;
+    padding-left:0.5rem;
+}
+.all:hover{
+    background-color: rgb(171, 170, 170);
+}
+.all:hover select{
+    background-color:rgb(171, 170, 170) ;
+    color:#0F1111;
+}
+.magnify:hover{
+    background-color: rgb(249, 171, 28);
+}
+.country{
+    display:flex;
+    color:gray;
+    font-size:12px;
+    margin:5px 0px 5px 1px;
+    padding:14px 9px 5px;
+    align-items: center;
+}
+.country:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+.accounts{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    padding:12px 9px 10px;
+    margin:5px 0px 5px 2px;
+}
+
+.acclist{
+    display:flex;    
+}
+.accounts:hover{
+    border:1px solid white;
+    border-radius:3px;
+    
+}
+.returns{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    margin:5px 0px 5px 6px;
+    padding:12px 9px 10px;
+}
+.returns:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+.cart{
+    display:flex;
+    color:white;
+    margin:5px 0px 5px 3px;
+    padding:12px 9px 10px;
+}
+.cart:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+.secondnav{
+    height:39px;
+    background-color:rgb(30, 39, 64);
+    display:flex;
+    font-size:0.85rem;
+
+}
+.allbar{
+    display:flex;
+    color:white;
+    padding:8px 9px;
+    margin:0px 0px 0px 5px;
+}
+.allbar:hover{
+    border:1px solid white;
+    border-radius:3px;
+
+}
+.li{
+    display:flex;
+    color:white;
+    padding:12px 9px;
+    margin:0px 0px 0px 5px;
+}
+.li:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+.topright{
+    margin-left:55px;
+}
+.topright:hover{
+    border:1px solid white;
+    border-radius:3px;
+
+}
+
