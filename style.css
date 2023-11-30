@@ -199,8 +199,8 @@ select{
 }
 .mainbg{
     background-image: url(assets/background.jpg);
-    -webkit-mask-image:linear-gradient(black 90%, transparent 100%);
-    mask-image:linear-gradient(black 90%, transparent 100%);
+    -webkit-mask-image:linear-gradient(black 80%, transparent 100%);
+    mask-image:linear-gradient(black 80%, transparent 100%);
     background-size: cover;
     height:400px;
 }
@@ -223,19 +223,63 @@ select{
     display:flex;
     flex-wrap:wrap;     
     justify-content: space-evenly;
-    row-gap:20px;
+    row-gap:40px;
     
 }
 .img{
     display:flex;
     flex-direction: column;
+    flex-wrap:wrap;
     margin-left:2px;
 }
-.img:hover,.img p:hover{
+.img:hover,.img span:hover{
     cursor:pointer;
 }
-#see{
+.seemore a{
     color:rgb(31, 143, 163);
-    margin-bottom:10px;
+    text-decoration: none;
+    font-size:14px;
+}
+.seemore{
+    margin:10% 0px 0px 15px;
+}
+.seemore a:hover{
+    text-decoration-line: underline;
+    color:orange;
+}
+.row1last{
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+    width:23%;
+    
+}
+.row1lasttop{
+    
+    height:160px;
+    background-color: white;
+    position: relative;
+    z-index:2;
+
+}
+.row1lastbottom{
+    
+    height:240px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+#signin{
+    padding:5px;
+    margin:10px 5px 5px 21px;
+    background-color: gold;
+    border:transparent;
+    border-radius: 8px;
+    height:35px;
+    width:85%;
+}
+#signin:hover{
+    cursor: pointer;
+    background-color: rgb(244, 194, 66);
 }
 
