@@ -7,6 +7,8 @@
 body{
     white-space: nowrap;
     overflow-x: auto;
+    background-color: rgb(235, 232, 232);
+    
 }
 
 .firstnav{
@@ -15,6 +17,7 @@ body{
     display:flex;
     column-gap: 3px;     
     min-width:100%;
+    
     
 }
 .amlogo{    
@@ -193,5 +196,46 @@ select{
     border:1px solid white;
     border-radius:3px;
 
+}
+.mainbg{
+    background-image: url(assets/background.jpg);
+    -webkit-mask-image:linear-gradient(black 90%, transparent 100%);
+    mask-image:linear-gradient(black 90%, transparent 100%);
+    background-size: cover;
+    height:400px;
+}
+.row1{
+    display:flex;
+    justify-content: space-evenly;
+    position:relative;
+    bottom:140px;   
+
+}
+.box{
+    height:420px;
+    border:none;
+    background-color:white;
+    position:relative;
+    z-index:2;
+    width:23%;
+}
+.boxin{
+    display:flex;
+    flex-wrap:wrap;     
+    justify-content: space-evenly;
+    row-gap:20px;
+    
+}
+.img{
+    display:flex;
+    flex-direction: column;
+    margin-left:2px;
+}
+.img:hover,.img p:hover{
+    cursor:pointer;
+}
+#see{
+    color:rgb(31, 143, 163);
+    margin-bottom:10px;
 }
 
