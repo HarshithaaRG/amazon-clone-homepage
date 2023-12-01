@@ -9,16 +9,22 @@ body{
     overflow-x: auto;
     background-color: rgb(235, 232, 232);
     
+    
 }
+
 
 .firstnav{
     height:60px;
     background-color: #0F1111;
     display:flex;
     column-gap: 3px;     
-    min-width:100%;
+    min-width:100%;    
     
-    
+}
+header .firstnav{
+position:fixed;
+top:0;
+z-index:3;
 }
 .amlogo{    
     height:50px;
@@ -163,11 +169,13 @@ select{
 }
 .secondnav{
     height:39px;
-    background-color:rgb(30, 39, 64);
+    background-color:#232F3E;
     display:flex;
     font-size:0.85rem;
+    margin-top:60px;
 
 }
+
 .allbar{
     display:flex;
     color:white;
@@ -281,5 +289,62 @@ select{
 #signin:hover{
     cursor: pointer;
     background-color: rgb(244, 194, 66);
+}
+.longrow{
+    height:340px;
+    position:relative;
+    bottom:95px;
+    background-color: white;
+    width:97%;
+    margin-left:19px;
+    
+}
+.heading{
+    display:flex;
+    justify-content: flex-start;
+    padding:15px;
+    padding-top:25px;
+}
+.heading a{
+    text-decoration: none;
+    color:rgb(31, 143, 163);
+    font-size:14px;
+    margin:8px;
+    margin-left:15px;
+}
+.heading a:hover{
+    text-decoration-line: underline;
+    color: orangered;
+}
+.items{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+}
+.belowitem{
+    display:flex;
+}
+.upto{
+    font-size:13px;
+    background-color: #CC0C39;
+    border:transparent;
+    border-radius: 3px;
+    padding:3px;
+    color:white;
+}
+.item1:hover{
+    cursor: pointer;
+}
+.streax1{
+    height:230px;
+    width:80%;
+    background-color: white;
+    position:relative;
+    bottom:-25px;
+    margin:auto;
 }
 
