@@ -346,5 +346,54 @@ select{
     position:relative;
     bottom:-25px;
     margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
 }
+.white{
+    height:20px;
+    
+    background-color: white;
+}
+footer{
+    position:relative;
+    bottom:-145px;
+    z-index:2;
 
+
+}
+.start{
+    text-align: center;
+    padding-top: 20px;
+    background-color: #314257;
+    height:50px;
+}
+.start:hover{
+    opacity: 0.8;   
+}
+.seclast{
+    height:490px;
+    background-color: #222c38;
+    
+    
+}
+.one{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 7px;
+
+}
+li a{
+    text-decoration: none;
+    color:rgb(189, 188, 188);
+    font-size:13px;
+}
+li a:hover{
+    text-decoration: underline;
+}
